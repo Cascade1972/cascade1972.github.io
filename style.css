@@ -112,8 +112,12 @@ body{
 
 .About{
     font-size: larger;
-    background-color: #253790;
-    color: aliceblue;
+    /* background-color: #253790; */
+    border-style: solid;
+    border-color: #253790;
+    border-width: 12px;
+    text-align: justify;
+    color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 20px;
     border-radius: 25px;
@@ -127,8 +131,12 @@ body{
 
 .Proj{
     font-size: 20px;
-    background-color: #253790;
-    color:aliceblue;
+    /* background-color: #253790; */
+    border-style: solid;
+    border-color: #253790;
+    border-width: 12px;
+    text-align: justify;
+    color:black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 20px;
     border-radius: 25px;
