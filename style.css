@@ -37,7 +37,7 @@
 
 /** Image - https://www.w3schools.com/css/css_rwd_grid.asp **/   
 img {
-    max-width: 75%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -56,6 +56,12 @@ img {
     padding-top: 14px;
     float: left;
     
+}
+
+#photo{
+    border-radius: 50%;
+    margin: 45%;
+    /*margin-bottom: 25%;*/
 }
 
 @keyframes fadeInAnimation {
@@ -185,11 +191,12 @@ hr{
 #navBar a:hover{
     background-color: #abb4df;
     color: black;
+    border-radius: 50%;
 }
 #MainContent{
     width: 90%;
     margin: 0 auto;
-    background-color: aliceblue;
+    background-color: rgb(196, 209, 219);
    
 }
 .container-fluid{
