@@ -51,17 +51,10 @@ img {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3.5em;
     animation: fadeInAnimation ease 5s;
-    background-color: steelblue;
     color:aliceblue;
     padding-top: 14px;
     float: left;
     
-}
-
-#photo{
-    border-radius: 50%;
-    margin: 45%;
-    /*margin-bottom: 25%;*/
 }
 
 @keyframes fadeInAnimation {
@@ -74,7 +67,7 @@ img {
 }
 
 body{
-    background-color:steelblue;
+    background-color: #5b6e74;
     
 }
 
@@ -86,7 +79,7 @@ body{
 #contact{
     display: inline-block;
     width: 100%;
-    background-color: steelblue;
+    background-color: #819fa7;
     color: white;
     min-height: 75px;
     margin-left: 0px;
@@ -100,7 +93,7 @@ body{
 }
 .contactText{
     padding: 10px;
-    color: white;
+    color: #f2f2f0;
     text-decoration: none;
     text-align: center;
     font-size: 1em;
@@ -108,26 +101,88 @@ body{
 }
 
 .contactText:hover{
-    color:#abb4df;
+    color:black;
 }
 
 #Abt{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 0.5em;
+    padding-top: 1%;
 }
+
 
 .About{
     font-size: larger;
-    /* background-color: #253790; */
     border-style: solid;
-    border-color: #253790;
+    border-color: #819fa7;
     border-width: 12px;
     text-align: justify;
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;
+    padding: 25px;
     border-radius: 25px;
   
+}
+
+.AboutSkills{
+    font-size: larger;
+    border-style: solid;
+    border-color: #819fa7;
+    border-width: 12px;
+    text-align: justify;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 25px;
+    border-radius: 25px;
+    margin-bottom: 25%;
+    margin-top: 25%;
+}
+
+#photo{
+    border-radius: 50%;
+    margin: 45%;
+    margin-bottom: 25%;
+    margin-top: 25%;
+}
+
+#unity{
+    padding: 5px;
+    width: 150px;
+}
+
+#unreal{
+    padding: 2.5px;
+    width: 180px;
+}
+
+#html{
+    padding: 2.5px;
+    width: 102px;
+}
+
+#css{
+    padding: 2.5px;
+    width: 117px;
+}
+
+#java{
+    padding: 2.5px;
+    width: 100px;
+}
+
+#node{
+    padding: 2.5px;
+    width: 100px;
+}
+
+#mysql{
+    padding: 2.5px;
+    width: 115px;
+}
+
+#csharp{
+    padding: 2.5px;
+    width: 110px;
 }
 
 #Pro{
@@ -139,7 +194,7 @@ body{
     font-size: 20px;
     /* background-color: #253790; */
     border-style: solid;
-    border-color: #253790;
+    border-color: #819fa7;
     border-width: 12px;
     text-align: justify;
     color:black;
@@ -185,24 +240,24 @@ hr{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: steelblue; 
+    /*background-color: steelblue;*/ 
   
 } 
 #navBar a:hover{
-    background-color: #abb4df;
+    background-color: #bde8f1;
     color: black;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
 }
 #MainContent{
     width: 90%;
     margin: 0 auto;
-    background-color: rgb(196, 209, 219);
-   
+    /*background-color: rgb(196, 209, 219);*/
+    background-color: #f2f2f0;
+    box-shadow: 10px 10px 10px black;
 }
 .container-fluid{
     width: 75%;
     margin: 0 auto;
-    background-color: steelblue;
 }
 #navBar{
     float: right;
