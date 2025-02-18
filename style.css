@@ -240,9 +240,8 @@ hr{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    /*background-color: steelblue;*/ 
-  
-} 
+    /*background-color: steelblue;*/
+}
 #navBar a:hover{
     background-color: #bde8f1;
     color: black;
@@ -259,6 +258,6 @@ hr{
     width: 75%;
     margin: 0 auto;
 }
-#navBar{
+/*#navBar{
     float: right;
-}
+}*/
