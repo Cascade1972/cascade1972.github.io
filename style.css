@@ -53,6 +53,7 @@ img {
     animation: fadeInAnimation ease 5s;
     color:aliceblue;
     padding-top: 14px;
+    padding-left: 15%;
     float: left;
     
 }
@@ -217,6 +218,21 @@ body{
     padding-right: 25px;
 }
 
+#Resume{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+}
+
+#res{
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+
+#pdf{
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+
 /* a:hover{
     background-color: aliceblue;
 } */
@@ -242,6 +258,12 @@ hr{
     text-decoration: none;
     /*background-color: steelblue;*/
 }
+.sticky-top{
+    position: sticky;
+    top: 0;
+    background-color: #819fa7;
+}
+
 #navBar a:hover{
     background-color: #bde8f1;
     color: black;
@@ -255,9 +277,10 @@ hr{
     box-shadow: 10px 10px 10px black;
 }
 .container-fluid{
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
 }
-/*#navBar{
+#navBar{
     float: right;
-}*/
+    padding-right: 15%;
+}
