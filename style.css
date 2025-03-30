@@ -140,12 +140,10 @@ body{
     margin-top: 25%;
 }
 
-/*#photo{
-    border-radius: 50%;
-    margin: 45%;
+#photo{
     margin-bottom: 25%;
     margin-top: 25%;
-}*/
+}
 
 #unity{
     padding: 5px;
@@ -206,25 +204,42 @@ body{
 }
 
 #pro1{
-    width: 340px;
-    height: 340px;
-    padding-bottom: 100px;
+    width: 585px;
+    height: 500px;
+    padding-bottom: 130px;
     padding-right: 25px;
 }
 
-#pro1{
+/*#pro1{
     font-size: 50px;
     text-align: center;
-}
+}*/
 
 #pro2{
-    width: 340px;
-    height: 340px;
+    width: 425px;
+    height: 425px;
+    padding-bottom: 130px;
+    padding-right: 25px;
+}
+
+#ue5{
+    width: 550px;
+    height: 500px;
+    padding-bottom: 130px;
+    padding-right: 25px;
+}
+
+/*#pro3{
+    width: 750px;
+    height: 750px;
     padding-bottom: 100px;
     padding-right: 25px;
 }
 
-.carousel{
+
+
+
+/*.carousel{
     width: 75vw;
     height: 75vh;
     position: relative;
@@ -296,9 +311,7 @@ body{
 
 .carousel-button.next{
     right: 1rem;
-}
-
-
+}*/
 
 
 
