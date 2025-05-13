@@ -204,16 +204,12 @@ body{
 }
 
 #pro1{
-    width: 585px;
-    height: 500px;
+    max-width: 100%;
+    height: auto;
     padding-bottom: 130px;
     padding-right: 25px;
 }
 
-/*#pro1{
-    font-size: 50px;
-    text-align: center;
-}*/
 
 #pro2{
     width: 425px;
@@ -227,6 +223,19 @@ body{
     height: 500px;
     padding-bottom: 130px;
     padding-right: 25px;
+}
+
+.responsive{
+    position: relative;
+    width: 100%;
+    height: 0; /* Fill the parent section */
+    padding-bottom: 56.25%;
+}
+
+.responsive iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 /*#pro3{
